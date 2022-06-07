@@ -1,0 +1,85 @@
+body {
+    background: url('assets/space-galaxy-background.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#div_1_1 {
+    font-size: 2rem;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1% 10%;
+}
+
+#div_1_2_1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input,
+select {
+    margin: 0 0.2em;
+    width: 13em;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+input[type=submit] {
+    padding: 13px;
+    width: 8em;
+    background: rgba(133, 133, 133, 0.81);
+    border-radius: 8px;
+    color: white;
+}
+
+#div_1_2_2 {
+    display: none;
+    width: 30em;
+    margin: auto;
+    padding: 30px;
+    color: white;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+#div_1_3 {
+    width: auto;
+    padding: 0 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 17em;
+    padding: 3em;
+}
+
+#div_1_3_2 {
+    background: rgba(0, 0, 0, 0.4);
+    /* background: blue; */
+    display: none;
+    padding: 3%;
+    border-radius: 8px;
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+
+#circle {
+    width: 6em;
+    height: 6em;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 3em;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
