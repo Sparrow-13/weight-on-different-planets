@@ -116,5 +116,5 @@ function updateWeight(weight, planet) {
     let updatedWeight = document.querySelector('#weight_on_planet');
     let actualWeight = document.querySelector('#circle');
     actualWeight.innerHTML = weight + 'KG ';
-    updateWeight.innerHTML = 'The Weight of Object on ' + planet + ' is';
+    updatedWeight.innerHTML = 'The Weight of Object on ' + planet + ' is';
 }
